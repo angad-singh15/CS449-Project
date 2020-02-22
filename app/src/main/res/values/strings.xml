@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FitNotes</string>
+    
+    <string-array name="WorkoutType" >
+        <item>Choose Your Workout</item>
+        <item>Bench Press</item>
+        <item>Deadlifts</item>
+        <item>Squats</item>
+        <item>Shoulder Press</item>
+        <item>Bend Over Rows</item>
+    </string-array>
+
+</resources>
