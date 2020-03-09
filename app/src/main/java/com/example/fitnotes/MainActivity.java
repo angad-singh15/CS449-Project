@@ -2,6 +2,7 @@ package com.example.fitnotes;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
@@ -26,12 +27,20 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-       // ((TextView) parent.getChildAt(0)).setTextColor(Color.WHITE);
-       // ((TextView) parent.getChildAt(0)).setTextSize(15);
+
+        if(parent.getItemAtPosition(position).equals("Choose Your Workout")){
+            // do nothing
+        }
+        else {
+            Intent intent = new Intent(MainActivity.this, DropDownActivity.class);
+            startActivity(intent);
+        }
+
     }
 
     @Override
     public void onNothingSelected(AdapterView<?> parent) {
+
 
     }
 }
