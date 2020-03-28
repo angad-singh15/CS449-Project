@@ -10,5 +10,13 @@
         <item>Bend Over Rows</item>
 
     </string-array>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="tab_text1">Home</string>
+    <string name="tab_tex2t">Workout</string>
+    <string name="tab_text3">Timer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 
 </resources>
