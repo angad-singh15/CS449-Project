@@ -46,7 +46,7 @@
         app:layout_constraintVertical_bias="0.087" />
 
     <TextView
-        android:id="@+id/text_view_countdown"
+        android:id="@+id/view_countdown"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -62,10 +62,10 @@
         app:layout_constraintVertical_bias="0.366" />
 
     <Button
-        android:id="@+id/button_reset"
+        android:id="@+id/reset_timerBttn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/text_view_countdown"
+        android:layout_below="@+id/view_countdown"
         android:text="reset"
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -73,31 +73,31 @@
         app:layout_constraintHorizontal_bias="0.668"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.478"
+        app:layout_constraintVertical_bias="0.499"
         tools:visibility="visible" />
 
     <Button
-        android:id="@+id/button_start_pause"
+        android:id="@+id/start_pauseBttn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/text_view_countdown"
+        android:layout_below="@+id/view_countdown"
         android:layout_centerHorizontal="true"
         android:text="start"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button_reset"
+        app:layout_constraintEnd_toStartOf="@+id/reset_timerBttn"
         app:layout_constraintHorizontal_bias="0.851"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.478" />
+        app:layout_constraintVertical_bias="0.499" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/timerHeading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Rest Timer"
         android:textColor="@android:color/black"
         android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/text_view_countdown"
+        app:layout_constraintBottom_toTopOf="@+id/view_countdown"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.473"
         app:layout_constraintStart_toStartOf="parent"
