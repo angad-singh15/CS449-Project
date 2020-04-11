@@ -7,10 +7,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.Spinner;
 
 public class WorkoutActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
+    Button addWorkoutButton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,6 +24,15 @@ public class WorkoutActivity extends AppCompatActivity implements AdapterView.On
         workoutSpinner.setAdapter(adapter);
         workoutSpinner.setOnItemSelectedListener(this);
 
+        addWorkoutButton = (Button) findViewById(R.id.addWorkoutBttn);
+
+        addWorkoutButton.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+
+            }
+
+        });
     }
 
     @Override
@@ -41,4 +52,5 @@ public class WorkoutActivity extends AppCompatActivity implements AdapterView.On
 
 
     }
+
 }

@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".WorkoutActivity"></activity>
+        <activity android:name=".RegisterPage"></activity>
+        <activity android:name=".LoginPage" />
+        <activity android:name=".WorkoutActivity" />
         <activity android:name=".TimerActivity" />
         <activity android:name=".DropDownActivity" />
         <activity android:name=".MainActivity">

@@ -69,7 +69,23 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.099" />
+        app:layout_constraintVertical_bias="0.099" /><![CDATA[
+
+
+
+    />
+
+
+
+
+
+
+
+
+
+
+
+    ]]>
 
     <Button
         android:id="@+id/workoutBttn"
@@ -79,14 +95,20 @@
         android:text="Workouts"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.537" /><![CDATA[
+        app:layout_constraintVertical_bias="0.614" />
 
-    />
-
-    ]]>
+    <Button
+        android:id="@+id/profileBttn"
+        android:layout_width="165dp"
+        android:layout_height="57dp"
+        android:drawableLeft="@drawable/dumbell"
+        android:text="Profile"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/recordsBttn"
@@ -98,7 +120,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/timerBttn"
-        app:layout_constraintVertical_bias="0.192" />
+        app:layout_constraintVertical_bias="0.139" />
 
     <Button
         android:id="@+id/timerBttn"
@@ -110,6 +132,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/workoutBttn"
-        app:layout_constraintVertical_bias="0.107" />/>
+        app:layout_constraintVertical_bias="0.081" />/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

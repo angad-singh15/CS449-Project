@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
     Button workoutButton;
     Button timerButton;
     Button recordsButton;
+    Button profileButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
         workoutButton = (Button) findViewById(R.id.workoutBttn);
         timerButton = (Button) findViewById(R.id.timerBttn);
         recordsButton = (Button) findViewById(R.id.recordsBttn);
+        profileButton = (Button) findViewById(R.id.profileBttn);
 
         workoutButton.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -55,6 +57,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 Intent intent = new Intent(MainActivity.this, TimerActivity.class);
+                startActivity(intent);
+            }
+
+        });
+
+        profileButton.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(MainActivity.this, RegisterPage.class);
                 startActivity(intent);
             }
 
