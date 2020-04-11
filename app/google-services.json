@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "247538218926",
+    "firebase_url": "https://fitnotes-64695.firebaseio.com",
+    "project_id": "fitnotes-64695",
+    "storage_bucket": "fitnotes-64695.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:247538218926:android:4af44b308740275bc97a3f",
+        "android_client_info": {
+          "package_name": "com.example.fitnotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "247538218926-77pfctlun98ut1ibf63tnlpfd5k55vr0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fitnotes",
+            "certificate_hash": "442c228238b11c67c4dc9992414f996ec0682b24"
+          }
+        },
+        {
+          "client_id": "247538218926-6so2to2c4gjhomhfannro7mladake82n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDidJzroWWyG6bRcV4BwBJibRP8TsoQLrE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "247538218926-6so2to2c4gjhomhfannro7mladake82n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
