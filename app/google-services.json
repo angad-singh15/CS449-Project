@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "247538218926",
-    "firebase_url": "https://fitnotes-64695.firebaseio.com",
-    "project_id": "fitnotes-64695",
-    "storage_bucket": "fitnotes-64695.appspot.com"
+    "project_number": "15309095364",
+    "firebase_url": "https://fitnotesdb-1ddd5.firebaseio.com",
+    "project_id": "fitnotesdb-1ddd5",
+    "storage_bucket": "fitnotesdb-1ddd5.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:247538218926:android:4af44b308740275bc97a3f",
+        "mobilesdk_app_id": "1:15309095364:android:7c44dc7f815641b04b2491",
         "android_client_info": {
           "package_name": "com.example.fitnotes"
         }
       },
       "oauth_client": [
         {
-          "client_id": "247538218926-77pfctlun98ut1ibf63tnlpfd5k55vr0.apps.googleusercontent.com",
+          "client_id": "15309095364-98mqe2rk36r8qeeoecgu52vn1qdlih2n.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.fitnotes",
@@ -23,20 +23,20 @@
           }
         },
         {
-          "client_id": "247538218926-6so2to2c4gjhomhfannro7mladake82n.apps.googleusercontent.com",
+          "client_id": "15309095364-e03ci82alngio90utbdq543b3vlltkm6.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDidJzroWWyG6bRcV4BwBJibRP8TsoQLrE"
+          "current_key": "AIzaSyAzhySy10-DxM5XlpmDCLcIBPAqXplRaUE"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "247538218926-6so2to2c4gjhomhfannro7mladake82n.apps.googleusercontent.com",
+              "client_id": "15309095364-e03ci82alngio90utbdq543b3vlltkm6.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
