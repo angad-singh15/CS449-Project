@@ -81,4 +81,17 @@
         app:layout_constraintTop_toBottomOf="@+id/spinnerCategory"
         app:layout_constraintVertical_bias="0.144" />
 
+    <EditText
+        android:id="@+id/addWorkoutText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Add new workout"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addWorkoutBttn"
+        app:layout_constraintVertical_bias="0.042" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
