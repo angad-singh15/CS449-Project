@@ -1,10 +1,13 @@
 package com.example.fitnotes;
 
+import java.text.DateFormat;
+
 public class Record {
 
     private Integer sets;
     private Integer reps;
     private Integer oneRm;
+    String date;
 
     public Record() {
     }
@@ -31,5 +34,13 @@ public class Record {
 
     public void setOneRm(Integer oneRm) {
         this.oneRm = oneRm;
+    }
+
+    public String getDate() {
+        return date;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
     }
 }
