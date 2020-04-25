@@ -8,6 +8,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 public class DropDownActivity extends AppCompatActivity {
 
     int sets, reps, oneRM;
@@ -16,6 +19,10 @@ public class DropDownActivity extends AppCompatActivity {
     EditText onermInput;
 
     Button saveBttn;
+
+    //Firebase setup
+    FirebaseDatabase mydatabase;
+    DatabaseReference records;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +34,10 @@ public class DropDownActivity extends AppCompatActivity {
         onermInput = (EditText) findViewById(R.id.rmInput);
 
         saveBttn = (Button)findViewById(R.id.saveBttn);
+
+        //Firebase connect
+        mydatabase = FirebaseDatabase.getInstance();
+        records = mydatabase.getReference("Record");
 
         saveBttn.setOnClickListener(new View.OnClickListener(){
             @Override

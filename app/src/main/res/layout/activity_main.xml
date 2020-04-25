@@ -8,6 +8,7 @@
     android:background ="@color/white"
     tools:context=".MainActivity">
 
+
     <ImageView
         android:id="@+id/imageView10"
         android:layout_width="293dp"
@@ -69,23 +70,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.099" /><![CDATA[
-
-
-
-    />
-
-
-
-
-
-
-
-
-
-
-
-    ]]>
+        app:layout_constraintVertical_bias="0.099" />
 
     <Button
         android:id="@+id/workoutBttn"
