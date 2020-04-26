@@ -67,7 +67,6 @@ public class DropDownActivity extends AppCompatActivity {
                 DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
                 Date date = new Date();
                 String strDate = dateFormat.format(date).toString();
-                //myRef.child("datetime").setValue(strDate);
 
                 record.setSets(sets);
                 record.setReps(reps);

@@ -7,9 +7,16 @@ public class Record {
     private Integer sets;
     private Integer reps;
     private Integer oneRm;
-    String date;
+    private String date;
 
     public Record() {
+    }
+
+    public Record(Integer sets, Integer reps, Integer oneRm, String date) {
+        this.sets = sets;
+        this.reps = reps;
+        this.oneRm = oneRm;
+        this.date = date;
     }
 
     public Integer getReps() {
@@ -43,4 +50,5 @@ public class Record {
     public void setDate(String date) {
         this.date = date;
     }
+
 }
