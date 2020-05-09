@@ -3,6 +3,7 @@ package com.example.fitnotes;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -61,6 +62,7 @@ public class LoginPage extends AppCompatActivity {
 
                         if(login.getPassword().equals(password)){
                             Toast.makeText(LoginPage.this, "Login Successful", Toast.LENGTH_SHORT).show();
+                            navigateUpTo(new Intent(getBaseContext(), MainActivity.class));
                         }
                         else {
                             Toast.makeText(LoginPage.this, "Wrong Password Entered", Toast.LENGTH_SHORT).show();
