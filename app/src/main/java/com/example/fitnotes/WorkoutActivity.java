@@ -25,6 +25,7 @@ public class WorkoutActivity extends AppCompatActivity implements AdapterView.On
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_workout);
 
+        //stores the data for drop down menu
         final String[] WorkoutTypes = new String[]{
                 "Choose Your Workout",
                 "Bench Press",
@@ -48,6 +49,7 @@ public class WorkoutActivity extends AppCompatActivity implements AdapterView.On
         addWorkoutButton = (Button) findViewById(R.id.addWorkoutBttn);
         addWorkoutText = (EditText) findViewById(R.id.addWorkoutText);
 
+
         addWorkoutButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
@@ -62,6 +64,7 @@ public class WorkoutActivity extends AppCompatActivity implements AdapterView.On
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
 
+        //skip the first item
         if (parent.getItemAtPosition(position).equals("Choose Your Workout")) {
             // do nothing
         } else {

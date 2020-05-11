@@ -20,19 +20,6 @@
         app:layout_constraintVertical_bias="0.119"
         app:srcCompat="@drawable/handlogo" />
 
-    <Button
-        android:id="@+id/aboutbutton"
-        android:layout_width="74dp"
-        android:layout_height="42dp"
-        android:layout_marginBottom="16dp"
-        android:text="About"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.039"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
-
 
     <View
         android:id="@+id/view2"
