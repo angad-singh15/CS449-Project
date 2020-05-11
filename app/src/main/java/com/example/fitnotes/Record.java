@@ -8,15 +8,18 @@ public class Record {
     private Integer reps;
     private Integer oneRm;
     private String date;
+    private String chosenWorkout;
+
 
     public Record() {
     }
 
-    public Record(Integer sets, Integer reps, Integer oneRm, String date) {
+    public Record(Integer sets, Integer reps, Integer oneRm, String date, String chosenWorkout) {
         this.sets = sets;
         this.reps = reps;
         this.oneRm = oneRm;
         this.date = date;
+        this.chosenWorkout = chosenWorkout;
     }
 
     public Integer getReps() {
@@ -51,4 +54,11 @@ public class Record {
         this.date = date;
     }
 
+    public String getChosenWorkout() {
+        return chosenWorkout;
+    }
+
+    public void setChosenWorkout(String chosenWorkout) {
+        this.chosenWorkout = chosenWorkout;
+    }
 }

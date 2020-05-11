@@ -19,6 +19,7 @@ public class WorkoutActivity extends AppCompatActivity implements AdapterView.On
 
     Button addWorkoutButton;
     EditText addWorkoutText;
+    public static String chosenWorkout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,7 +50,6 @@ public class WorkoutActivity extends AppCompatActivity implements AdapterView.On
         addWorkoutButton = (Button) findViewById(R.id.addWorkoutBttn);
         addWorkoutText = (EditText) findViewById(R.id.addWorkoutText);
 
-
         addWorkoutButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
@@ -67,7 +67,10 @@ public class WorkoutActivity extends AppCompatActivity implements AdapterView.On
         //skip the first item
         if (parent.getItemAtPosition(position).equals("Choose Your Workout")) {
             // do nothing
-        } else {
+        }
+        else {
+            //get the workout chosen by the user
+            chosenWorkout = parent.getItemAtPosition(position).toString();
             Intent intent = new Intent(WorkoutActivity.this, DropDownActivity.class);
             startActivity(intent);
         }

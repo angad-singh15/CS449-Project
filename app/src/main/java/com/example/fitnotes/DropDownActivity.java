@@ -66,12 +66,15 @@ public class DropDownActivity extends AppCompatActivity {
 
                 DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
                 Date date = new Date();
-                String strDate = dateFormat.format(date).toString();
+                String strDate = dateFormat.format(date);
 
+                //set values for record and push data to the database
                 record.setSets(sets);
                 record.setReps(reps);
                 record.setOneRm(oneRM);
                 record.setDate(strDate);
+                System.out.println(WorkoutActivity.chosenWorkout);
+                record.setChosenWorkout(WorkoutActivity.chosenWorkout);
 
                 recordsRef.push().setValue(record);
             }

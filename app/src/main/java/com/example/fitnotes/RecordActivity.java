@@ -43,6 +43,7 @@ public class RecordActivity extends AppCompatActivity {
         arrayList = new ArrayList<>();
         arrayAdapter = new ArrayAdapter<String>(this, R.layout.record_info,R.id.recordInfo, arrayList );
 
+        //query data from the database and display it as a record
         recordsRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
@@ -51,6 +52,7 @@ public class RecordActivity extends AppCompatActivity {
 
                     record = ds.getValue(Record.class);
                     arrayList.add("Date: " + record.getDate() + "\n"
+                            + "Workout: " + record.getChosenWorkout() + "\n"
                             + "Sets: "  + record.getSets().toString() + "\n"
                             +  "Reps: " + record.getReps().toString() + "\n"
                             +  "1RM: " +  record.getOneRm().toString());
